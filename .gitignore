@@ -1,0 +1,19 @@
+# project
+logs/
+data/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyc
+dist/
+build/
+
+# virtual environments
+.envrc
+.venv/
+uv.lock
+
+# OS
+.DS_Store

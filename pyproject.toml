@@ -1,0 +1,17 @@
+[project]
+name = "snn-learning-dynamics"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9,<3.12"
+dependencies = [
+    "bindsnet @ git+https://github.com/BindsNET/bindsnet.git",
+    "tensorboard>=2.18.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipython",
+    "ipdb",
+    "pre-commit"
+]
